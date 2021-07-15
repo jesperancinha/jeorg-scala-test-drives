@@ -20,3 +20,26 @@ jobs:
         distribution: 'adopt'
     - name: Run tests
       run: sbt test
+    - name: Create reports for jeorg-scala-test-drives-crums-1
+      run: sbt "project jeorg-scala-test-drives-crums-1" clean update coverage test && sbt "project jeorg-scala-test-drives-crums-1" jacoco coverageAggregate coverageReport coveralls
+      env:
+         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+    - name: Create reports for jeorg-scala-test-drives-crums-2
+      run: sbt "project jeorg-scala-test-drives-crums-2" clean update coverage test && sbt "project jeorg-scala-test-drives-crums-2" jacoco coverageAggregate coverageReport coveralls
+      env:
+         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+   - name: Create reports for jeorg-scala-test-drives-crums-3
+      run: sbt "project jeorg-scala-test-drives-crums-3" clean update coverage test && sbt "project jeorg-scala-test-drives-crums-3" jacoco coverageAggregate coverageReport coveralls
+      env:
+         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+    - name: Coverage with Codecov
+      run: bash <(curl -s https://codecov.io/bash)
+      env:
+         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+    - name: Coverage with Codacy
+      run:
+        - bash <(curl -Ls https://coverage.codacy.com/get.sh) report --partial $(find **/jacoco*.xml -printf '-r %p ')
+        - bash <(curl -Ls https://coverage.codacy.com/get.sh) report --partial $(find **/lcov.info -printf '-r %p ')
+        - bash <(curl -Ls https://coverage.codacy.com/get.sh) final
+      env:
+         CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
