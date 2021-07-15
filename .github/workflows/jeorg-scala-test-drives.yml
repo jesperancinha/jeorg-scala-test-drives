@@ -20,16 +20,8 @@ jobs:
         distribution: 'adopt'
     - name: Run tests
       run: sbt test
-    - name: Create reports for jeorg-scala-test-drives-crums-1
-      run: sbt "project jeorg-scala-test-drives-crums-1" clean update coverage test && sbt "project jeorg-scala-test-drives-crums-1" jacoco coverageAggregate coverageReport coveralls
-      env:
-         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-    - name: Create reports for jeorg-scala-test-drives-crums-2
-      run: sbt "project jeorg-scala-test-drives-crums-2" clean update coverage test && sbt "project jeorg-scala-test-drives-crums-2" jacoco coverageAggregate coverageReport coveralls
-      env:
-         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-    - name: Create reports for jeorg-scala-test-drives-crums-3
-      run: sbt "project jeorg-scala-test-drives-crums-3" clean update coverage test && sbt "project jeorg-scala-test-drives-crums-3" jacoco coverageAggregate coverageReport coveralls
+    - name: Coverage with Coveralls
+      run: sbt "project global" clean update coverage test jacoco coverageReport coverageAggregate coveralls
       env:
          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
     - name: Coverage with Codecov
