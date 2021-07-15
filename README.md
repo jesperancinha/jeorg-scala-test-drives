@@ -36,6 +36,7 @@ sdk use java  11.0.11.hs-adpt
 
 ### Online
 
+-   [ScalaTest](https://www.scalatest.org/)
 -   [Scala - Overview](https://www.tutorialspoint.com/scala/scala_overview.htm)
 -   [Lift Framework](https://github.com/lift/framework)
 -   [Play Framework](https://www.playframework.com/)
