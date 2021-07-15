@@ -10,6 +10,7 @@ Study project on all things scala related
 
 [![CircleCI](https://circleci.com/gh/jesperancinha/jeorg-scala-test-drives/tree/main.svg?style=svg)](https://circleci.com/gh/jesperancinha/jeorg-scala-test-drives/tree/main)
 [![Build status](https://ci.appveyor.com/api/projects/status/2wm1p5dy2mawewkp?svg=true)](https://ci.appveyor.com/project/jesperancinha/jeorg-scala-test-drives)
+[![jeorg-scala-test-drives](https://github.com/jesperancinha/jeorg-scala-test-drives/actions/workflows/jeorg-scala-test-drives.yml/badge.svg)](https://github.com/jesperancinha/jeorg-scala-test-drives/actions/workflows/jeorg-scala-test-drives.yml)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fe01b148957f4109bd66b3dbde1c2728)](https://www.codacy.com/gh/jesperancinha/jeorg-scala-test-drives/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/jeorg-scala-test-drives&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/375b0a90-d5a0-468f-a9b7-051ea83a9c80)](https://codebeat.co/projects/github-com-jesperancinha-jeorg-scala-test-drives-main)
