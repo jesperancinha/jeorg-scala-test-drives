@@ -52,6 +52,8 @@ lazy val `jeorg-scala-test-drives-crums-3` = project
 
 
 lazy val commonDependencies = Seq(
+  "org.jesperancinha.console" % "consolerizer" % "2.0.12",
+  "io.spray" %% "spray-json" % "1.3.5",
   "io.spray" %% "spray-json" % "1.3.5",
   "org.scalactic" %% "scalactic" % "3.1.0",
   "net.liftweb" %% "lift-json" % "3.4.1",
@@ -101,8 +103,6 @@ lazy val assemblySettings = Seq(
   assemblyMergeStrategy in assembly := {
     case PathList("META-INF", xs @ _*) => MergeStrategy.discard
     case "application.conf"            => MergeStrategy.concat
-    case x =>
-      val oldStrategy = (assemblyMergeStrategy in assembly).value
-      oldStrategy(x)
+    case x => MergeStrategy.first
   }
 )
