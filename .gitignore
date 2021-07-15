@@ -1,2 +1,15 @@
 *.class
 *.log
+*.jar
+
+## Build
+target
+project
+bin
+.bsp
+
+## IDE
+.idea
+*.iml
+.classpath
+.project
