@@ -1,3 +1,5 @@
+val AkkaVersion = "2.6.15"
+
 name := "jeorg-scala-test-drives"
 
 version := "0.1"
@@ -96,14 +98,16 @@ lazy val commonDependencies = Seq(
   "mysql" % "mysql-connector-java" % "5.1.25",
   "ch.qos.logback" % "logback-classic" % "1.0.13",
   "com.typesafe.akka" %% "akka-http-core" % "10.1.11",
-  "com.typesafe.akka" %% "akka-actor" % "2.6.3",
-  "com.typesafe.akka" %% "akka-stream" % "2.6.3",
+  "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
+  "com.typesafe.akka" %% "akka-actor" % AkkaVersion,
+  "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
   "com.typesafe.akka" %% "akka-http" % "10.1.11",
   "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.11",
   "com.typesafe.akka" %% "akka-http-testkit" % "10.1.11",
   "org.jesperancinha.itf" % "itf-chartizate-java" % "5.0.0" exclude("org.fusesource.jansi", "jansi"),
   "org.mockito" %% "mockito-scala" % "1.11.1" % Test,
   "org.scalatest" %% "scalatest" % "3.1.0" % Test,
+
 )
 
 lazy val compilerOptions = Seq(
