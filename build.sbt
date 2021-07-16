@@ -13,7 +13,10 @@ lazy val global = project
   .aggregate(
     `jeorg-scala-test-drives-crums-1`,
     `jeorg-scala-test-drives-crums-2`,
-    `jeorg-scala-test-drives-crums-3`
+    `jeorg-scala-test-drives-crums-3`,
+    `jeorg-scala-test-drives-akka-1`,
+    `jeorg-scala-test-drives-akka-2`,
+    `jeorg-scala-test-drives-akka-3`,
   )
 
 lazy val `jeorg-scala-test-drives-crums-1` = project
@@ -42,6 +45,39 @@ lazy val `jeorg-scala-test-drives-crums-3` = project
   .in(file("jeorg-scala-test-drives-crums/jeorg-scala-test-drives-crums-3"))
   .settings(
     name := "jeorg-scala-test-drives-crums-3",
+    version := "1.0.0-SNAPSHOT",
+    commonSettings,
+    libraryDependencies ++= commonDependencies,
+    assemblySettings,
+    mainClass := Some("com.jesperancinha.imagecontour.boot.Boot")
+  )
+
+lazy val `jeorg-scala-test-drives-akka-1` = project
+  .in(file("jeorg-scala-test-drives-akka/jeorg-scala-test-drives-akka-1"))
+  .settings(
+    name := "jeorg-scala-test-drives-akka-1",
+    version := "1.0.0-SNAPSHOT",
+    commonSettings,
+    libraryDependencies ++= commonDependencies,
+    assemblySettings,
+    mainClass := Some("com.jesperancinha.imagecontour.boot.Boot")
+  )
+
+lazy val `jeorg-scala-test-drives-akka-2` = project
+  .in(file("jeorg-scala-test-drives-akka/jeorg-scala-test-drives-akka-2"))
+  .settings(
+    name := "jeorg-scala-test-drives-akka-2",
+    version := "1.0.0-SNAPSHOT",
+    commonSettings,
+    libraryDependencies ++= commonDependencies,
+    assemblySettings,
+    mainClass := Some("com.jesperancinha.imagecontour.boot.Boot")
+  )
+
+lazy val `jeorg-scala-test-drives-akka-3` = project
+  .in(file("jeorg-scala-test-drives-akka/jeorg-scala-test-drives-akka-3"))
+  .settings(
+    name := "jeorg-scala-test-drives-akka-3",
     version := "1.0.0-SNAPSHOT",
     commonSettings,
     libraryDependencies ++= commonDependencies,
