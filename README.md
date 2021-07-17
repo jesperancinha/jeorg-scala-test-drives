@@ -32,6 +32,7 @@ Study project on all things scala related
 ---
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/scala-50.png "Scala")](https://www.scala-lang.org/)
+[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-50/sbt-50.png "Scala")](https://www.scala-sbt.org/)
 
 ---
 
