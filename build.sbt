@@ -104,7 +104,8 @@ lazy val commonDependencies = Seq(
   "com.typesafe.akka" %% "akka-http" % "10.1.11",
   "com.typesafe.akka" %% "akka-http-spray-json" % "10.1.11",
   "com.typesafe.akka" %% "akka-http-testkit" % "10.1.11",
-  "org.jesperancinha.itf" % "itf-chartizate-java" % "5.0.0" exclude("org.fusesource.jansi", "jansi"),
+  "ch.qos.logback" % "logback-classic" % "1.2.3",
+  "com.typesafe.akka" %% "akka-actor-testkit-typed" % AkkaVersion % Test,
   "org.mockito" %% "mockito-scala" % "1.11.1" % Test,
   "org.scalatest" %% "scalatest" % "3.1.0" % Test,
 
