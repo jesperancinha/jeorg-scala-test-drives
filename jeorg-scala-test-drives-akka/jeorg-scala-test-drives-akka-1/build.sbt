@@ -9,6 +9,7 @@ lazy val AkkaVersion = "2.6.15"
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
   "ch.qos.logback" % "logback-classic" % "1.2.3",
+  "org.jesperancinha.console" % "consolerizer" % "2.0.12",
   "com.typesafe.akka" %% "akka-actor-testkit-typed" % AkkaVersion % Test,
   "org.scalatest" %% "scalatest" % "3.1.0" % Test
 )
