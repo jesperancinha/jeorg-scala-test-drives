@@ -25,6 +25,12 @@ Actor Start and Stop
 sbt "runMain org.jesperancinha.scala.td.akka1.ActorStartAndStop"
 ```
 
+Actor Fail Handling
+
+```bash
+sbt "runMain org.jesperancinha.scala.td.akka1.ActorFailHandling"
+```
+
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
