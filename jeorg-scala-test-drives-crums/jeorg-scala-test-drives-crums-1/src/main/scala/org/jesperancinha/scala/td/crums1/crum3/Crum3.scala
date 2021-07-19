@@ -15,6 +15,7 @@ object Crum3 {
       .magenta("This is a stone").brightGreen(emerald).magenta(", we have").brightGreen(emerald.quantity.toString).magenta("of them.").newLine()
       .magenta("This is another stone").brightMagenta(amethist).magenta(", we have").brightMagenta(amethist.quantity.toString).magenta("of them.").newLine()
       .magenta("And this is the big one!").brightWhite(diamond).magenta(", we have").brightWhite(diamond.quantity.toString).magenta("of them.").newLine()
+      .reset()
   }
 
   case class Jewel(val stone: String, val quantity: Long) {
