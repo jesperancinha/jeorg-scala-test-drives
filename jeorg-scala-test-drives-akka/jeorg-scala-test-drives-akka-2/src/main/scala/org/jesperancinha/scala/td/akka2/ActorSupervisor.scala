@@ -1,12 +1,7 @@
 package org.jesperancinha.scala.td.akka2
 
-
-package com.example
-
+import akka.actor.typed.scaladsl.{AbstractBehavior, ActorContext, Behaviors}
 import akka.actor.typed.{ActorSystem, Behavior, PostStop, Signal}
-import akka.actor.typed.scaladsl.AbstractBehavior
-import akka.actor.typed.scaladsl.ActorContext
-import akka.actor.typed.scaladsl.Behaviors
 
 object IotSupervisor {
   def apply(): Behavior[Nothing] =
@@ -32,7 +27,8 @@ object ActorSupervisor {
 
   def main(args: Array[String]): Unit = {
     // Create ActorSystem and top level supervisor
-    ActorSystem[Nothing](IotSupervisor(), "iot-system")
+    val value = ActorSystem[Nothing](IotSupervisor(), "iot-system")
+    value.terminate()
   }
 
 }
