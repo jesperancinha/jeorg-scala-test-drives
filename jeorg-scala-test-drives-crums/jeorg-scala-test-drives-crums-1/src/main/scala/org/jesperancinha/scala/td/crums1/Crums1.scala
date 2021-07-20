@@ -4,6 +4,7 @@ import org.jesperancinha.console.consolerizer.console.ConsolerizerComposer
 import org.jesperancinha.console.consolerizer.console.ConsolerizerComposer.title
 import org.jesperancinha.scala.td.crums1.crum1.Crum1
 import org.jesperancinha.scala.td.crums1.crum10.Crum10
+import org.jesperancinha.scala.td.crums1.crum11.Crum11
 import org.jesperancinha.scala.td.crums1.crum2.Crum2
 import org.jesperancinha.scala.td.crums1.crum3.Crum3
 import org.jesperancinha.scala.td.crums1.crum4.Crum4
@@ -35,5 +36,6 @@ object Crums1 {
     Crum8.main(args)
     Crum9.main(args)
     Crum10.main(args)
+    Crum11.main(args)
   }
 }
