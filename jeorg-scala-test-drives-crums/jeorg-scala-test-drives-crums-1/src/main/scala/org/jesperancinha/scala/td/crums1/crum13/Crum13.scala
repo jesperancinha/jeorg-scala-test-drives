@@ -8,6 +8,7 @@ object Crum13 {
     ConsolerizerComposer.outSpace()
       .cyan(ConsolerizerComposer.title("Crum 13 - Functional literals, aka, anonymous functions"))
       .reset()
+
     val pow = (number: Double) => number * number
 
     val numbers = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10).map(n => n.toDouble)
