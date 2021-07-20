@@ -22,5 +22,14 @@ object Crum15 {
       .green(allwords)
       .magenta("https://en.wikipedia.org/wiki/Pangram")
       .reset()
+
+    ConsolerizerComposer.outSpace()
+      .orange("We can also get all the chars")
+      .red(saying1)
+      .red(saying2)
+      .blue("All chars are")
+      .green((saying1 + " " + saying2).split(" ").flatten.map("-"+_).toSet)
+      .magenta("https://en.wikipedia.org/wiki/Pangram")
+      .reset()
   }
 }
