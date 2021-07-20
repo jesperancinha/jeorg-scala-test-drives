@@ -20,6 +20,20 @@ object Crum17 {
       .cyan(s"We've picked up song $song")
       .magenta(s"And have this comment: $textToSay")
       .reset()
+
+    val maybeInt = Option[Int](10)
+
+    val internalValue = maybeInt.getOrElse(0)
+    val internalValue2 = maybeInt.map(value => value)
+    val internalValue3 = maybeInt match {
+      case Some(value) => value
+      case None => 0
+    }
+
+    ConsolerizerComposer.outSpace()
+      .green(internalValue.toString)
+      .green(internalValue2)
+      .green(internalValue3.toString)
   }
 
 }
