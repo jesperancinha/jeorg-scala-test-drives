@@ -9,7 +9,6 @@ object Crum14 {
       .cyan(ConsolerizerComposer.title("Crum 14 - Special Function Literals"))
       .reset()
 
-
     val a = 1000
     val b = 2000
 
