@@ -20,6 +20,7 @@ object Crum15 {
       .red(saying2)
       .blue("All words are")
       .green(allwords)
+      .magenta("https://en.wikipedia.org/wiki/Pangram")
       .reset()
   }
 }
