@@ -16,5 +16,9 @@ object Crum10 {
       .rainbow(100)
       .brightWhite(tuple._5)
       .reset()
+
+    ConsolerizerComposer.outSpace()
+      .cyan("It can also be done this way")
+      .brightCyan(("red", "green", "blue", "purple","green","black","yellow","white","pink","cyan"))
   }
 }
