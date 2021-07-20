@@ -4,15 +4,14 @@ import org.jesperancinha.console.consolerizer.console.ConsolerizerComposer
 
 object Crum16 {
 
-  def main(args:Array[String]): Unit ={
+  def main(args: Array[String]): Unit = {
 
     ConsolerizerComposer.outSpace()
       .cyan(ConsolerizerComposer.title("Crum 16 - yielding"))
       .reset()
 
-
-    val ingredientsVector1 = Vector("Cumin","Anis","Sage","Parsley","Thyme")
-    val ingredientsVector2 = Vector("Garlic","Red Onion","Onion","Chives")
+    val ingredientsVector1 = Vector("Cumin", "Anis", "Sage", "Parsley", "Thyme")
+    val ingredientsVector2 = Vector("Garlic", "Red Onion", "Onion", "Chives")
 
     val mix = for {
       x <- ingredientsVector1
