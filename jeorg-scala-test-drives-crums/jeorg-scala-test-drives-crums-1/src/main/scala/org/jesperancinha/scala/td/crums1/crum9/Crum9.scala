@@ -8,19 +8,19 @@ object Crum9 {
       .cyan(ConsolerizerComposer.title("Crum 9 - Adding elements to a Set"))
       .reset()
 
-    val plansts = Set("Orchidea", "Bonsai", "Peppers", "Mint", "Strawberry")
+    val plants = Set("Orchidea", "Bonsai", "Peppers", "Mint", "Strawberry")
 
     ConsolerizerComposer.outSpace()
-      .green(plansts)
+      .green(plants)
 
     ConsolerizerComposer.outSpace()
-      .green(plansts + "Sanseviera")
+      .green(plants + "Sanseviera")
 
     ConsolerizerComposer.outSpace()
-      .green("Yuccas" + plansts + "Sanseviera")
+      .green("Yuccas" + plants + "Sanseviera")
 
     ConsolerizerComposer.outSpace()
-      .green("Yuccas" + (plansts + "Sanseviera"))
+      .green("Yuccas" + (plants + "Sanseviera"))
       .reset()
   }
 }

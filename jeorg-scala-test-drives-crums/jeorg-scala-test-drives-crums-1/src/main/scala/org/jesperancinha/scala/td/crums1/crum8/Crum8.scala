@@ -8,16 +8,16 @@ object Crum8 {
       .cyan(ConsolerizerComposer.title("Crum 8 - Adding elements to a sequence"))
       .reset()
 
-    val plansts = Seq("Orchidea", "Bonsai", "Peppers", "Mint", "Strawberry")
+    val plants = Seq("Orchidea", "Bonsai", "Peppers", "Mint", "Strawberry")
 
     ConsolerizerComposer.outSpace()
-      .green(plansts)
+      .green(plants)
 
     ConsolerizerComposer.outSpace()
-      .green(plansts :+ "Sanseviera")
+      .green(plants :+ "Sanseviera")
 
     ConsolerizerComposer.outSpace()
-      .green("Yuccas" +: plansts :+ "Sanseviera")
+      .green("Yuccas" +: plants :+ "Sanseviera")
 
   }
 }
