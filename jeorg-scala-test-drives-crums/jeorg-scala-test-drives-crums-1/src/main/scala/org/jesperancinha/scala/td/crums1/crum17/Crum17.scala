@@ -35,5 +35,4 @@ object Crum17 {
       .green(internalValue2)
       .green(internalValue3.toString)
   }
-
 }
