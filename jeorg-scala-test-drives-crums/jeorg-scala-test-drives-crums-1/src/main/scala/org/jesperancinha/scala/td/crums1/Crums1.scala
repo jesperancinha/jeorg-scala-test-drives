@@ -14,6 +14,7 @@ import org.jesperancinha.scala.td.crums1.crum17.Crum17
 import org.jesperancinha.scala.td.crums1.crum18.Crum18
 import org.jesperancinha.scala.td.crums1.crum19.Crum19
 import org.jesperancinha.scala.td.crums1.crum2.Crum2
+import org.jesperancinha.scala.td.crums1.crum20.Crum20
 import org.jesperancinha.scala.td.crums1.crum3.Crum3
 import org.jesperancinha.scala.td.crums1.crum4.Crum4
 import org.jesperancinha.scala.td.crums1.crum5.Crum5
@@ -53,5 +54,6 @@ object Crums1 {
     Crum17.main(args)
     Crum18.main(args)
     Crum19.main(args)
+    Crum20.main(args)
   }
 }
