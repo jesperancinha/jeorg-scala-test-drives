@@ -19,7 +19,7 @@ object Crum2 {
     })
 
 
-    val list: List[DragonBallZ] = List(SonGoku, Krillin, Bulma, Piccolo, SonGohan, Vegeta, Bardock, Trunks, SonGoten)
+    val list: List[DragonBallZ] = DragonBallZ.values.toList
     ConsolerizerComposer.outSpace()
       .magenta(list.size.toString)
     list foreach (character => {

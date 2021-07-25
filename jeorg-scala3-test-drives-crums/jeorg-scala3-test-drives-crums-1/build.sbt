@@ -6,6 +6,6 @@ scalaVersion := "3.0.1"
 
 
 libraryDependencies ++= Seq(
-  "ch.qos.logback" % "logback-classic" % "1.2.3",
-  "org.jesperancinha.console" % "consolerizer" % "2.0.11",
+  "ch.qos.logback" % "logback-classic" % "1.2.4",
+  "org.jesperancinha.console" % "consolerizer" % "2.0.12",
 )

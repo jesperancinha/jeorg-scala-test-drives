@@ -3,6 +3,7 @@ package org.jesperancinha.scala3.td.crums1
 import org.jesperancinha.console.consolerizer.console.ConsolerizerComposer
 import org.jesperancinha.console.consolerizer.console.ConsolerizerComposer.title
 import org.jesperancinha.scala3.td.crums1.crum1.Crum1
+import org.jesperancinha.scala3.td.crums1.crum2.Crum2
 
 object Crums1 {
   def main(args: Array[String]): Unit =
@@ -12,5 +13,6 @@ object Crums1 {
       .red("Scala is cool, but first, let's head to the beach and be lekker lazy!!! 🏖🌊🐚")
       .reset()
     Crum1.main(args)
+    Crum2.main(args)
   end main
 }
