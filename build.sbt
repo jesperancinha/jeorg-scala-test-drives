@@ -14,7 +14,7 @@ lazy val global = project
   .settings(commonSettings)
   .disablePlugins(AssemblyPlugin)
   .aggregate(
-    `jeorg-scala3-test-drives-crums-1`,
+//    `jeorg-scala3-test-drives-crums-1`,
     `jeorg-scala-test-drives-crums-1`,
     `jeorg-scala-test-drives-crums-2`,
     `jeorg-scala-test-drives-crums-3`,
@@ -23,18 +23,18 @@ lazy val global = project
     `jeorg-scala-test-drives-akka-3`,
   )
 
-lazy val `jeorg-scala3-test-drives-crums-1` = project
-  .in(file("jeorg-scala3-test-drives-crums/jeorg-scala3-test-drives-crums-1"))
-  .settings(
-//    scalaVersion := "3.0.1",
-    crossScalaVersions := Seq("3.0.1", "2.12", "2.13.6"),
-    name := "jeorg-scala3-test-drives-crums-1",
-    version := "1.0.0-SNAPSHOT",
-    commonSettings,
-    libraryDependencies ++= common3Dependencies,
-    assemblySettings,
-    mainClass := Some("com.jesperancinha.imagecontour.boot.Boot")
-  )
+//lazy val `jeorg-scala3-test-drives-crums-1` = project
+//  .in(file("jeorg-scala3-test-drives-crums/jeorg-scala3-test-drives-crums-1"))
+//  .settings(
+////    scalaVersion := "3.0.1",
+//    crossScalaVersions := Seq("3.0.1", "2.12", "2.13.6"),
+//    name := "jeorg-scala3-test-drives-crums-1",
+//    version := "1.0.0-SNAPSHOT",
+//    commonSettings,
+//    libraryDependencies ++= common3Dependencies,
+//    assemblySettings,
+//    mainClass := Some("com.jesperancinha.imagecontour.boot.Boot")
+//  )
 
 lazy val `jeorg-scala-test-drives-crums-1` = project
   .in(file("jeorg-scala-test-drives-crums/jeorg-scala-test-drives-crums-1"))

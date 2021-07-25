@@ -1,4 +1,4 @@
 build:
-	sbt "project global" clean update coverage test
+	sbt "project global" clean update test
 test:
 	sbt "project global" test

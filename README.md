@@ -50,6 +50,13 @@ sdk install scala 3.0.0
 sdk use scala 3.0.0
 ```
 
+Scala 3 features are only active on the Scala3 projects.
+Since I was not able to incorporate Scala3 builds with old projects given dependency issues on external libraries, the Scala 3 projects still run independently of the main build.
+
+Please go to [Scala3](./jeorg-scala3-test-drives-crums), pick your project and run the Makefile.
+There are normally 3 options which are self-explanatory: `build`, `test` and `run`. 
+There may be further options on location, explained through the Readme.md file.
+
 ## Coursier
 
 -   MAC-OS
