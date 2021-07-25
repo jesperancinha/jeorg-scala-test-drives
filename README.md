@@ -43,6 +43,20 @@ Study project on all things scala related
 sdk install java 11.0.11.hs-adpt
 sdk use java 11.0.11.hs-adpt
 ```
+## Scala SDK
+
+```bash
+sdk install scala 3.0.0
+sdk use scala 3.0.0
+```
+
+## Coursier
+
+-   MAC-OS
+
+```bash
+brew install coursier/formulas/coursier && cs setup
+```
 
 ## Build
 
@@ -50,6 +64,11 @@ sdk use java 11.0.11.hs-adpt
 sbt clean assembly
 sbt clean assembly update test
 ```
+
+## Intellij
+
+This project uses Scala 3.0.0
+In case you are using Intellij, please make suer you are using version 212.4321, otherwise, the plugin won't recognize this new Scala version
 
 ## References
 
