@@ -8,7 +8,6 @@ object Crum7 {
       .cyan(ConsolerizerComposer.title("Crum 7 - Matching list elements"))
       .reset()
 
-
     val drinks = List("Martini", "Malibu", "Red Wine", "Gin Tonic")
 
     drinks match {
