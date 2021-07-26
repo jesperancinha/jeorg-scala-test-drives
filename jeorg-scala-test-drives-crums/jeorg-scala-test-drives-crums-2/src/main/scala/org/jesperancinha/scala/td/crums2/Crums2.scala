@@ -8,6 +8,7 @@ import org.jesperancinha.scala.td.crums2.crum5.Crum5
 import org.jesperancinha.scala.td.crums2.crum6.Crum6
 import org.jesperancinha.scala.td.crums2.crum7.Crum7
 import org.jesperancinha.scala.td.crums2.crum8.Crum8
+import org.jesperancinha.scala.td.crums2.crum9.Crum9
 
 object Crums2 {
 
@@ -20,6 +21,7 @@ object Crums2 {
     Crum6.main(args)
     Crum7.main(args)
     Crum8.main(args)
+    Crum9.main(args)
   }
 
 }

@@ -27,5 +27,11 @@ object Crum8 {
       .orange(mutableBitSet)
       .orange(stringBuilder)
       .reset()
+
+    val emptyNumbers = List.empty[Int]
+
+    ConsolerizerComposer.outSpace()
+      .magenta(s"This is an empty Int list=>$emptyNumbers")
+      .reset()
   }
 }
