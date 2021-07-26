@@ -22,5 +22,13 @@ object Crum10 {
       .magenta(sumReduce.toString)
       .magenta(sumFoldRight.toString)
       .reset()
+
+    ConsolerizerComposer.outSpace()
+      .cyan(numbers ++ numbers)
+      .cyan(numbers :: numbers)
+      .cyan(100100 :: numbers)
+      .cyan(11 +: 12 +: 13 +: numbers)
+      .cyan(11 +: 12 +: 13 +: numbers :+ 21 :+ 22 :+ 23 +: numbers :+ 31 :+ numbers)
+      .reset()
   }
 }
