@@ -33,5 +33,6 @@ object Crum5 {
     partyChecker(optionTheirParty)
     partyChecker(None)
     partyChecker(Option("Whasup!!"))
+    partyChecker.apply(None)
   }
 }
