@@ -1,6 +1,7 @@
 package org.jesperancinha.scala.td.crums2
 
 import org.jesperancinha.scala.td.crums2.crum1.Crum1
+import org.jesperancinha.scala.td.crums2.crum10.Crum10
 import org.jesperancinha.scala.td.crums2.crum2.Crum2
 import org.jesperancinha.scala.td.crums2.crum3.Crum3
 import org.jesperancinha.scala.td.crums2.crum4.Crum4
@@ -22,6 +23,7 @@ object Crums2 {
     Crum7.main(args)
     Crum8.main(args)
     Crum9.main(args)
+    Crum10.main(args)
   }
 
 }
