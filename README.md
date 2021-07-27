@@ -74,8 +74,9 @@ sbt clean assembly update test
 
 ## Intellij
 
-This project uses Scala 3.0.0
-In case you are using Intellij, please make suer you are using version 212.4321, otherwise, the plugin won't recognize this new Scala version
+This project uses Scala 3.0.0 in one of its modules.
+
+In case you are using Intellij, please make sure you are using any version above [212.4321](https://confluence.jetbrains.com/display/IDEADEV/IntelliJ+IDEA+2021.2+EAP+%28212.4321.30+build%29+Release+Notes), otherwise, the plugin won't recognize Scala 3 specific code.
 
 ## References
 
