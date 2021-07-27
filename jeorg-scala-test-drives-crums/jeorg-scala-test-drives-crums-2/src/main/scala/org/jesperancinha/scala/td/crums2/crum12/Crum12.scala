@@ -14,7 +14,6 @@ object Crum12 {
       .cyan(ConsolerizerComposer.title("Crum 12 - type aliases"))
       .reset()
 
-
     val bigPotatoGreeting: Eastern = "Happy Eastern!!"
     val correctedGreeting: Easter = "Happy Easter!"
 
