@@ -6,6 +6,7 @@ import org.jesperancinha.scala3.td.crums1.crum1.Crum1
 import org.jesperancinha.scala3.td.crums1.crum2.Crum2
 import org.jesperancinha.scala3.td.crums1.crum3.Crum3
 import org.jesperancinha.scala3.td.crums1.crum4.Crum4
+import org.jesperancinha.scala3.td.crums1.crum5.Crum5
 
 object Crums1 {
   def main(args: Array[String]): Unit =
@@ -18,5 +19,6 @@ object Crums1 {
     Crum2.main(args)
     Crum3.main(args)
     Crum4.main(args)
+    Crum5.main(args)
   end main
 }
