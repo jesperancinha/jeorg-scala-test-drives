@@ -13,16 +13,16 @@ object Crum7 {
     t
   }
 
-  implicit val t:T = new T {
-    ConsolerizerComposer.outSpace()
-      .magenta("Maria")
-      .reset()
-  }
-
   def main(args: Array[String]): Unit = {
     ConsolerizerComposer.outSpace()
       .cyan(ConsolerizerComposer.title("Crum 7 - Summon the given"))
       .reset()
+
+    implicit val t: T = new T {
+      ConsolerizerComposer.outSpace()
+        .magenta("Maria")
+        .reset()
+    }
 
     val it = summon[T]
 
