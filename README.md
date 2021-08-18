@@ -18,7 +18,7 @@ Study project on all things scala related
 [![Known Vulnerabilities](https://snyk.io/test/github/jesperancinha/jeorg-scala-test-drives/badge.svg)](https://snyk.io/test/github/jesperancinha/jeorg-scala-test-drives)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/fe01b148957f4109bd66b3dbde1c2728)](https://www.codacy.com/gh/jesperancinha/jeorg-scala-test-drives/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/jeorg-scala-test-drives&utm_campaign=Badge_Coverage)
-[![codecov](https://codecov.io/gh/jesperancinha/jeorg-scala-test-drives/branch/master/graph/badge.svg?token=ZxFBRlXA3F)](https://codecov.io/gh/jesperancinha/jeorg-scala-test-drives)
+[![codecov](https://codecov.io/gh/jesperancinha/jeorg-scala-test-drives/branch/main/graph/badge.svg)](https://codecov.io/gh/jesperancinha/jeorg-scala-test-drives)
 [![Coverage Status](https://coveralls.io/repos/github/jesperancinha/jeorg-scala-test-drives/badge.svg?branch=main)](https://coveralls.io/github/jesperancinha/jeorg-scala-test-drives?branch=main)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/jeorg-scala-test-drives.svg)](#)
