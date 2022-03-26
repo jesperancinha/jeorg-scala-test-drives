@@ -78,12 +78,6 @@ This project uses Scala 3.0.0 in one of its modules.
 
 In case you are using Intellij, please make sure you are using any version above [212.4321](https://confluence.jetbrains.com/display/IDEADEV/IntelliJ+IDEA+2021.2+EAP+%28212.4321.30+build%29+Release+Notes), otherwise, the plugin won't recognize Scala 3 specific code.
 
-## Buy me a coffee
-
-I hope you enjoyed this repository. If you did please buy me a coffee which enables me to constantly improve and make new free content regularly for everyone. Thank you so much!
-
-<a href="https://www.buymeacoffee.com/jesperancinha" target="_blank"><img class="bmac" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50px" style="height: 60px !important;width: 217px !important;" ></a>
-
 ## References
 
 ### Online
@@ -98,6 +92,7 @@ I hope you enjoyed this repository. If you did please buy me a coffee which enab
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/medium-20.png "Medium")](https://medium.com/@jofisaes)
+[![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/bmc-20.png "Buy me a Coffe")](https://www.buymeacoffee.com/jesperancinha)
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/credly-20.png "Credly")](https://www.credly.com/users/joao-esperancinha)
 [![Generic badge](https://img.shields.io/static/v1.svg?label=Homepage&message=joaofilipesabinoesperancinha.nl&color=6495ED "João Esperancinha Homepage")](https://joaofilipesabinoesperancinha.nl/)
 [![GitHub followers](https://img.shields.io/github/followers/jesperancinha.svg?label=jesperancinha&style=social "GitHub")](https://github.com/jesperancinha)
